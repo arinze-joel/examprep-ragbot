@@ -1,7 +1,6 @@
 # Core
 streamlit==1.27.0
 python-dotenv==1.0.0
-hashlib
 
 # LangChain
 langchain==0.2.21
