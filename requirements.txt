@@ -4,19 +4,17 @@ python-dotenv==1.0.0
 
 # LangChain
 langchain==0.2.21
-langchain-core==0.2.21
-langchain-community==0.2.21
-langchain-huggingface==0.0.19
+# Optional LangChain integrations only if needed
+# langchain-community==0.2.21
+# langchain-huggingface==0.0.19
 
 # Document loaders
 unstructured==0.9.7
 pypdf==3.14.0
+python-magic==0.4.27  # optional, improves DOCX parsing
 
-# Vector store
+# Vector store & embeddings
 chromadb==0.3.28
 sentence-transformers==2.2.2
 torch==2.3.0
 transformers==4.32.0
-
-# Optional (improves DOCX parsing)
-python-magic==0.4.27
